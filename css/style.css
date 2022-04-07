@@ -1,0 +1,82 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+
+.header{
+    position: relative;
+    font-family: SVN-Gotham;
+}
+
+.header img{
+    height: 150px;
+    top: 50%;
+    right: 50%;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header ul li{
+    float:left;
+}
+
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.header ul{
+    margin-top: 20%;
+    float: right;
+}
+
+.header .text{
+    margin-top: 20%;
+}
+
+.navbar{
+    margin-top: 10px;
+    font-family: SVN-Gotham;
+    font-weight: bold;
+}
+
+.neo-header{
+    width: 100%;
+    position: relative;
+}
+
+.neo-header img{
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.neo-header h4{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-family: SVN-Gotham;
+    font-weight: 300;
+}
+
+.content{
+    font-family: SVN-Gotham;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content img{
+    float:none;
+    margin: 0px;
+}
+
+.content table{
+    text-align: start;
+}
+
