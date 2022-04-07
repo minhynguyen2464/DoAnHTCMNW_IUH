@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/);
+  }
+  
 
 .header{
     position: relative;
