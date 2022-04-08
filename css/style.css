@@ -1,6 +1,7 @@
 *{
     margin: auto;
     padding: 0px;
+    font-family: SVN-Gotham;
 }
 
 @font-face {
@@ -11,7 +12,7 @@
 
 .header{
     position: relative;
-    font-family: SVN-Gotham;
+
 }
 
 .header img{
@@ -46,7 +47,7 @@
 
 .navbar{
     margin-top: 10px;
-    font-family: SVN-Gotham;
+
     font-weight: bold;
 }
 
@@ -66,12 +67,12 @@
     top: 40%;
     left: 40%;
     color: white;
-    font-family: SVN-Gotham;
+
     font-weight: 300;
 }
 
 .content{
-    font-family: SVN-Gotham;
+
     text-align: center;
     margin-top: 10px;
 }
