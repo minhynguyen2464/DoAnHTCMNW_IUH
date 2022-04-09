@@ -4,11 +4,81 @@
     font-family: SVN-Gotham;
 }
 
+
 @font-face {
     font-family: SVN-Gotham;
-    src: url(../fonts/);
+    src: url(../fonts/SVN-Gotham\ Black.otf);
+    font-weight: bolder;
   }
-  
+@font-face{
+    font-family: SVN-Gotham;
+    src:url(../fonts/SVN-Gotham\ Black\ Italic.otf);
+    font-style: italic;
+    font-weight: bolder;
+}
+@font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Bold.otf);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Bold\ Italic.otf);
+    font-weight: bold;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Italic.otf);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Light.otf);
+    font-weight: lighter;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Light\ Italic.otf);
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Regular.otf);
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Thin.otf);
+    font-size: small;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Thin\ Italic.otf);
+    font-size: small;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Book.otf);
+    font-size:medium;
+  }
+
+  @font-face {
+    font-family: SVN-Gotham;
+    src: url(../fonts/SVN-Gotham\ Book\ Italic.otf);
+    font-size:medium;
+    font-style: italic;
+  }
+
+
+
 
 .header{
     position: relative;
