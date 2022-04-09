@@ -71,6 +71,13 @@
     font-weight: 300;
 }
 
+.neo-header h1{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    color: white;
+}
+
 .content{
 
     text-align: center;
@@ -79,10 +86,50 @@
 
 .content img{
     float:none;
-    margin: 0px;
+    margin-left: -60px;
 }
 
 .content table{
     text-align: start;
 }
 
+.login form{
+    margin-left: 25%;
+}
+
+.register form{
+    margin-left: 22%;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+section h4{
+    color: grey;
+}
+
+section h4{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+}
+
+section h3{
+    text-align: center;
+}
+
+.footer{
+    clear: both;
+    margin-top: 20px;
+    background-color:rgb(236, 236, 236);
+}
+
+.footer li{
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-size: small;
+}
