@@ -20,6 +20,7 @@ $(document).ready(function() {
 
     function kiemTraTen() {
         var i=1;
+        let mauMotTen = /^[A-Z]{1}[a-z]+$/
         let ten = $("#txtFirstname").val();
         let mauKT = /([A-Z]{1}[a-z]+)((\s{1}[A-Z]{1}[a-z]+){1,})$/;
         if(ten==""){
@@ -27,8 +28,13 @@ $(document).ready(function() {
             return false;
         }
         if (!mauKT.test(ten)) {
-            $("#tbFirstname").html("Mỗi ký tự đầu viết hoa không sử dụng số");
-            return false;
+            if (mauMotTen.test(ten)) {
+                $("#tbFirstname").html("*");
+                return true;
+            } else {
+                $("#tbFirstname").html("Mỗi ký tự đầu viết hoa không sử dụng số");
+                return false;
+            }
         }
         $("#tbFirstname").html("*");
         return true;
