@@ -17,7 +17,7 @@ $(document).ready(function () {
     });    
 
     $("#of02-btn3").click(function () { 
-        document.getElementById("of02-pic").src="../../../picture/product/of02-3.webp"
+        document.getElementById("of02-pic").src="../../picture/product/of02-3.webp"
     });    
 
     $("#of07-btn1").click(function () { 
