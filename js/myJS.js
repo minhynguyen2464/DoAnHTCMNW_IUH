@@ -144,5 +144,11 @@ $(document).ready(function() {
         }
         
     });
+
+    $("#btnSearch").click(function () { 
+        var ten = $("#txtSearch").val();
+        ten = ten.toLowerCase();
+        $("#goSearch").attr("href", "html/oxford/"+ten+".html");
+    });
     
 })
